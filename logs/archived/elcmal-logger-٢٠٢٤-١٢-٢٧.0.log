@@ -1,0 +1,4 @@
+٢٠٢٤-١٢-٢٧ ٢٣:٥٩:٥٩,٧٦٤ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٤-١٢-٢٧ ٢٣:٥٩:٥٩,٧٨٩ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 16356 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٤-١٢-٢٧ ٢٣:٥٩:٥٩,٧٩٠ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٤-١٢-٢٧ ٢٣:٥٩:٥٩,٧٩٢ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"

@@ -1,0 +1,127 @@
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٦,٣١٧ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٦,٣٢٢ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 23184 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٦,٣٢٦ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٦,٣٢٧ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٧,٥٣٤ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٧,٦٤٣ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 98 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٨,٨٦٨ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٨,٨٨٤ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٨,٨٨٥ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٨,٨٨٦ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٩,٠٩٠ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٩,٠٩٠ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2697 ms
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٩,٣٤٥ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٩,٤٠٩ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٣٩,٩٥٥ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٠,٠٥٦ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٠,١٦٩ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٠,٥٤٩ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٠,٧١٢ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٢,٠٥٩ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٢,٠٦٩ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٢,٨٤٩ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٤,٠٩٣ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53202b06, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44ba9f25, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a0aa5e2, org.springframework.security.web.header.HeaderWriterFilter@260f05ee, org.springframework.web.filter.CorsFilter@53570fff, org.springframework.security.web.authentication.logout.LogoutFilter@89178b4, com.elcmal.security.jwt.AuthTokenFilter@c931728, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2389f546, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63d14dbf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e5df971, org.springframework.security.web.session.SessionManagementFilter@22657db1, org.springframework.security.web.access.ExceptionTranslationFilter@2111d7b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e75bae7]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٤,٢٥٨ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٤,٤٥٤ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٤,٤٨٧ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٠ ١٦:٣٨:٤٤,٥٠٢ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 9.4 seconds (JVM running for 10.402)
+٢٠٢٥-٠١-١٠ ١٦:٤٣:٠٦,٥٩٤ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٦:٤٣:٠٦,٥٩٧ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-١٠ ١٦:٤٣:٠٦,٦١١ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٥-٠١-١٠ ١٧:٢١:٥٧,٩٨٣ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٠ ١٧:٢١:٥٧,٩٩٩ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 15248 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٠ ١٧:٢١:٥٨,٠٠٠ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٠ ١٧:٢١:٥٨,٠٠١ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٠ ١٧:٢١:٥٩,٣٤٣ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٠ ١٧:٢١:٥٩,٤٨٧ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٠,٦١٧ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٠,٦٣١ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٠,٦٣٢ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٠,٦٣٢ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٠,٨٧٥ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٠,٨٧٦ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2799 ms
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠١,١٣٦ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠١,١٩٧ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠١,٦٢٧ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠١,٧٣٧ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠١,٨٣١ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٢,١٢٤ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٢,٢٨٠ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٣,٨٣٥ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٣,٨٤٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٤,٥١٠ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٦,١٧٨ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bf34912, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bcdd302, org.springframework.security.web.context.SecurityContextPersistenceFilter@260f05ee, org.springframework.security.web.header.HeaderWriterFilter@397f925e, org.springframework.web.filter.CorsFilter@648f48d3, org.springframework.security.web.authentication.logout.LogoutFilter@73839f22, com.elcmal.security.jwt.AuthTokenFilter@628aea61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4afdb05e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@429dde4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30ce78e3, org.springframework.security.web.session.SessionManagementFilter@63541cd4, org.springframework.security.web.access.ExceptionTranslationFilter@b1f36e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44c54463]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٦,٤٤١ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٦,٧١٣ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٦,٧٥٣ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٠ ١٧:٢٢:٠٦,٧٦٩ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 9.527 seconds (JVM running for 10.25)
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٢٦,٨٧٥ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٢٦,٨٨٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٢٦,٨٩٨ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٢,٩٨٩ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٣,٠٠٤ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 15596 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٣,٠٠٦ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٣,٠٠٧ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٤,٢٩٥ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٤,٤٢١ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٥,٦٧٠ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٥,٦٩٢ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٥,٦٩٣ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٥,٦٩٤ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٦,٠١٧ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٦,٠١٨ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2930 ms
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٦,٣٠٩ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٦,٣٨٠ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٧,٠١٣ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٧,١١٥ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٧,٢١٢ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٧,٥١٧ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٧,٦٧٦ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٨,٨٥١ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٨,٨٦١ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٣٩,٤٦٥ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٤٠,٩٠٥ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4f2b1a2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c2a33af, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ef48b08, org.springframework.security.web.header.HeaderWriterFilter@6dc5e857, org.springframework.web.filter.CorsFilter@53202b06, org.springframework.security.web.authentication.logout.LogoutFilter@5f3c866c, com.elcmal.security.jwt.AuthTokenFilter@530e08a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b625e82, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@630bd5e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44ba9f25, org.springframework.security.web.session.SessionManagementFilter@4d529bc0, org.springframework.security.web.access.ExceptionTranslationFilter@63c66980, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1390a43a]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٤١,٠٨٥ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٤١,٣٠٦ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٤١,٣٣٧ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٠ ١٧:٣٤:٤١,٣٥١ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 9.119 seconds (JVM running for 9.753)
+٢٠٢٥-٠١-١٠ ١٧:٣٦:٣٣,٢١٣ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٠ ١٧:٣٦:٣٣,٢١٤ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٠ ١٧:٣٦:٣٣,٢١٦ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+٢٠٢٥-٠١-١٠ ١٨:٤٤:٣٦,٧٩٨ WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m23s957ms7µs).
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٤٦,٩٧٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٤٦,٩٨٦ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٤٧,٠٠٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٠,٥٨١ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٠,٥٩٠ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 12136 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٠,٥٩٢ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٠,٥٩٣ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥١,٩٤١ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٢,٠٨١ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 127 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٢٨٧ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٣٠٦ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٣٠٨ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٣٠٩ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٥٦٥ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٥٦٦ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2888 ms
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٨٧٩ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٣,٩٥١ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٤,٥٩٦ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٤,٧٦٢ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٤,٩٢٥ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٥,٢٤٢ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٥,٤٣٦ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٦,٨٤٣ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٦,٨٥٤ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٧,٦٠٤ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٩,٢١٩ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3328db4f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f9e9c21, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fe91918, org.springframework.security.web.header.HeaderWriterFilter@5ef48b08, org.springframework.web.filter.CorsFilter@1390a43a, org.springframework.security.web.authentication.logout.LogoutFilter@5c7d675c, com.elcmal.security.jwt.AuthTokenFilter@6b286640, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f5b4ca6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67521a79, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bf2e475, org.springframework.security.web.session.SessionManagementFilter@35a2ea5a, org.springframework.security.web.access.ExceptionTranslationFilter@7a023e34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2eb0932c]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٩,٤٢٥ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٩,٦٦٢ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٩,٧٠٣ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٠ ١٩:٠٢:٥٩,٧٢١ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 9.985 seconds (JVM running for 10.744)
+٢٠٢٥-٠١-١٠ ١٩:١٤:٣٤,٧٥٤ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٠ ١٩:١٤:٣٤,٧٥٤ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٠ ١٩:١٤:٣٤,٧٥٦ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+٢٠٢٥-٠١-١٠ ١٩:٢٤:٤٨,٤٢٠ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٠ ١٩:٢٤:٤٨,٤٢٥ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-١٠ ١٩:٢٤:٤٨,٤٣٩ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

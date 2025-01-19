@@ -1,0 +1,148 @@
+٢٠٢٤-١٢-٠١ ٠٠:١٥:٢٤,١٦٨ WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m37s598ms395µs900ns).
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٤٤,٨٤٧ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٤٤,٨٥٢ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٤٤,٨٦١ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٦,١٦٣ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٦,١٧٧ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 13072 (D:\PROJECT\backend\target\classes started by NoteBook in D:\PROJECT\backend)
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٦,١٧٨ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٦,١٧٩ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٧,٢٩٢ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٧,٤٠٧ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 7 JPA repository interfaces.
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٤٠٥ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٤٢١ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٤٢٢ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٤٢٢ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٥٥٩ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٥٥٩ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2323 ms
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٦٤٧ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٨,٧٠٦ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٩,٢٤٠ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٩,٣٥٧ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٩,٤٩٣ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٩,٧٦٤ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٤-١٢-٠١ ٠٠:٢٢:٥٩,٩٢١ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠١,١١٠ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠١,١١٨ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠١,٦٧٩ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠٢,٤١٢ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f1c406e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5364b481, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c261c74, org.springframework.security.web.header.HeaderWriterFilter@5c41f6a0, org.springframework.web.filter.CorsFilter@62ec4146, org.springframework.security.web.authentication.logout.LogoutFilter@19656e21, com.elcmal.security.jwt.AuthTokenFilter@35277c6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41f61188, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@576323ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@362e709e, org.springframework.security.web.session.SessionManagementFilter@7668f8fd, org.springframework.security.web.access.ExceptionTranslationFilter@2e1c8027, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2559f65c]
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠٢,٦٢٧ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠٢,٦٥٨ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:٠٢,٦٧٠ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 7.111 seconds (JVM running for 7.662)
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:١١,٧٧٨ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:١١,٧٧٨ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ٠٠:٢٣:١١,٧٧٩ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٣,٩٥٩ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٣,٩٦١ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٣,٩٧٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٨,٤١٢ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٨,٤٢٢ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 18372 (D:\PROJECT\backend\target\classes started by NoteBook in D:\PROJECT\backend)
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٨,٤٢٤ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٨,٤٢٦ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٩,٣٤٢ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٢٩,٤٤٤ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 7 JPA repository interfaces.
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٣٥٣ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٣٦٧ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٣٦٨ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٣٦٨ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٥١٧ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٥١٨ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2036 ms
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٦٥٧ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٠,٧٤٢ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣١,٢١٩ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣١,٣١٩ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣١,٤١٩ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣١,٦٧٨ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣١,٨١٥ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٢,٨٩٣ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٢,٩٠٥ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٣,٥١٨ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٤,٢٧٣ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2dfab167, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30eee098, org.springframework.security.web.context.SecurityContextPersistenceFilter@47fce2c4, org.springframework.security.web.header.HeaderWriterFilter@1c65ec63, org.springframework.web.filter.CorsFilter@3123ba75, org.springframework.security.web.authentication.logout.LogoutFilter@3e3bf77b, com.elcmal.security.jwt.AuthTokenFilter@2a4bd699, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b76ecd5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e0a112f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d8e1fa6, org.springframework.security.web.session.SessionManagementFilter@2f5a092e, org.springframework.security.web.access.ExceptionTranslationFilter@17d45cfb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e9f48d4]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٤,٥٣٧ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٤,٥٦٠ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٣٤,٥٧٠ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 6.833 seconds (JVM running for 7.336)
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٥٧,٥١٥ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٥٧,٥١٥ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ٠٠:٢٥:٥٧,٥١٦ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:١٦,٥٦٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:١٦,٥٦٧ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:١٦,٥٨٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٤,٢٩٥ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٤,٣٠٠ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 23292 (D:\PROJECT\backend\target\classes started by NoteBook in D:\PROJECT\backend)
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٤,٣٠١ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٤,٣٠٢ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٥,١٧٨ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٥,٢٧٧ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 7 JPA repository interfaces.
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,١١٩ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,١٣٥ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,١٣٦ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,١٣٦ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٢٦٨ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٢٦٩ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1894 ms
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٣٧١ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٤٣١ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٨٢٣ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٩١٢ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٦,٩٨٤ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٧,٢٢٤ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٧,٣٥٩ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٨,٣٤٦ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٨,٣٥٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٨,٩١٧ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٩,٤٨٢ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5440a3a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18cb4ed1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4889fbba, org.springframework.security.web.header.HeaderWriterFilter@7bbe532b, org.springframework.web.filter.CorsFilter@10abd94f, org.springframework.security.web.authentication.logout.LogoutFilter@311453ab, com.elcmal.security.jwt.AuthTokenFilter@7a053795, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@572db5ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b8599c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47bfde21, org.springframework.security.web.session.SessionManagementFilter@5a5b394, org.springframework.security.web.access.ExceptionTranslationFilter@5b9df3b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@68dbe225]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٩,٦٨٣ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٩,٧١١ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٢٩,٧٢١ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 6.053 seconds (JVM running for 6.564)
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٣٧,٦١٠ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٣٧,٦١١ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ٠٠:٢٦:٣٧,٦١٣ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+٢٠٢٤-١٢-٠١ ٠٠:٢٩:٣٣,٢٥١ DEBUG c.e.s.AuthService [http-nio-8080-exec-6] Attempting to register new user: admin2
+٢٠٢٤-١٢-٠١ ٠٠:٢٩:٣٣,٣٧٥ DEBUG c.e.s.AuthService [http-nio-8080-exec-6] Processing role assignment: admin for user: admin2
+٢٠٢٤-١٢-٠١ ٠٠:٢٩:٣٣,٤١٨ INFO c.e.s.AuthService [http-nio-8080-exec-6] User registered successfully: admin2
+٢٠٢٤-١٢-٠١ ٠٠:٢٩:٤١,٩٤١ DEBUG c.e.s.AuthService [http-nio-8080-exec-7] Attempting to authenticate user: admin2
+٢٠٢٤-١٢-٠١ ٠٠:٢٩:٤٢,١٤٧ INFO c.e.s.AuthService [http-nio-8080-exec-7] User authenticated successfully: admin2
+٢٠٢٤-١٢-٠١ ٠٠:٢٩:٤٧,١٨٧ ERROR c.e.s.j.JwtUtils [http-nio-8080-exec-8] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+٢٠٢٤-١٢-٠١ ٠٠:٥١:١٨,٥٤٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ٠٠:٥١:١٨,٥٤٨ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٤-١٢-٠١ ٠٠:٥١:١٨,٥٦٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٤٩,١٤٩ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٤٩,١٧٨ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 19840 (D:\PROJECT\backend\target\classes started by NoteBook in D:\PROJECT\backend)
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٤٩,١٧٩ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٤٩,١٨٠ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٠,١١٠ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٠,٢١٢ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 7 JPA repository interfaces.
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٠٨٢ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٠٩٨ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٠٩٩ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٠٩٩ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٢٤٢ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٢٤٣ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2003 ms
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٣١٣ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥١,٣٧٩ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٢,٠٣٥ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٢,١٤٣ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٢,٢٥٣ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٢,٥٣٤ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٢,٧٣٤ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٣,٨١٧ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٣,٨٢٥ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٤,٣٣٥ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٤,٩٠٥ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1f251bf1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@502b9399, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a23b9d1, org.springframework.security.web.header.HeaderWriterFilter@664083f6, org.springframework.web.filter.CorsFilter@433db56d, org.springframework.security.web.authentication.logout.LogoutFilter@71806c64, com.elcmal.security.jwt.AuthTokenFilter@57bfca3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3183a37c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75566f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e23af91, org.springframework.security.web.session.SessionManagementFilter@7ef3aa21, org.springframework.security.web.access.ExceptionTranslationFilter@7a74672, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@156f0281]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٥,١٠٣ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٥,١٣٢ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٤-١٢-٠١ ١٥:٣٦:٥٥,١٤١ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 6.655 seconds (JVM running for 7.315)
+٢٠٢٤-١٢-٠١ ١٥:٤٣:٢٧,٦٤٣ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ١٥:٤٣:٢٧,٦٤٤ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+٢٠٢٤-١٢-٠١ ١٥:٤٣:٢٧,٦٤٥ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+٢٠٢٤-١٢-٠١ ١٥:٤٦:١٨,٧٤٦ DEBUG c.e.s.AuthService [http-nio-8080-exec-10] Attempting to authenticate user: admin2
+٢٠٢٤-١٢-٠١ ١٥:٤٦:١٨,٩٣٨ INFO c.e.s.AuthService [http-nio-8080-exec-10] User authenticated successfully: admin2
+٢٠٢٤-١٢-٠١ ١٦:٠٩:٥٠,٠١٧ ERROR c.e.s.j.JwtUtils [http-nio-8080-exec-2] Invalid JWT signature: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+٢٠٢٤-١٢-٠١ ١٦:١١:١١,٣٨٤ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-3] SQL Error: 1451, SQLState: 23000
+٢٠٢٤-١٢-٠١ ١٦:١١:١١,٣٨٥ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-3] Cannot delete or update a parent row: a foreign key constraint fails (`device_maintenance`.`orders`, CONSTRAINT `FKf4aqpjoge9hj2ywrvotish71i` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٤-١٢-٠١ ١٦:١١:١١,٣٨٧ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-3] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٤-١٢-٠١ ١٦:١١:٤٠,٩٤٧ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] SQL Error: 1451, SQLState: 23000
+٢٠٢٤-١٢-٠١ ١٦:١١:٤٠,٩٤٧ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] Cannot delete or update a parent row: a foreign key constraint fails (`device_maintenance`.`orders`, CONSTRAINT `FKf4aqpjoge9hj2ywrvotish71i` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٤-١٢-٠١ ١٦:١١:٤٠,٩٤٧ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-6] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٤-١٢-٠١ ١٧:١٨:٣٤,٥٢٢ WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m2s527ms894µs600ns).
+٢٠٢٤-١٢-٠١ ١٨:٣٩:٢٣,٣٥٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٤-١٢-٠١ ١٨:٣٩:٢٣,٣٦١ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٤-١٢-٠١ ١٨:٣٩:٢٣,٣٧١ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

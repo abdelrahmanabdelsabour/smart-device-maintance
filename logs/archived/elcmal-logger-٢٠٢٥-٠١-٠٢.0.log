@@ -1,0 +1,3 @@
+٢٠٢٥-٠١-٠٢ ٠٠:٠٣:٢٢,٦٥٠ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-٠٢ ٠٠:٠٣:٢٢,٦٦٩ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-٠٢ ٠٠:٠٣:٢٢,٦٧٦ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,139 @@
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٢,٥٩٤ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٢,٦١١ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 16308 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٢,٦١٣ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٢,٦١٤ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٤,٢٨٥ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٤,٤٥٧ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 153 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٥,٦١١ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٥,٦٢٨ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٥,٦٢٩ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٥,٦٣٠ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٥,٨٣٧ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٥,٨٣٨ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3113 ms
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٦,١١٣ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٦,١٨٥ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٦,٨٣٠ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٦,٩٤٤ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٧,٠٧٥ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٧,٣٨٨ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٦ ١٢:١٣:٤٧,٥٧٤ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٠,٥٥٢ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٠,٥٦٥ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥١,١٥٩ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٢,٦٧١ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@44c54463, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64b20d9c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ba02f70, org.springframework.security.web.header.HeaderWriterFilter@4a225014, org.springframework.web.filter.CorsFilter@6fc3f1a7, org.springframework.security.web.authentication.logout.LogoutFilter@2566247d, com.elcmal.security.jwt.AuthTokenFilter@36e358de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2148849f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2165d4ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7151dd9d, org.springframework.security.web.session.SessionManagementFilter@397f925e, org.springframework.security.web.access.ExceptionTranslationFilter@6f9b5f01, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7925e772]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٢,٩٥٩ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٣,١٤٥ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٣,١٨١ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٦ ١٢:١٣:٥٣,١٩٧ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 11.511 seconds (JVM running for 12.422)
+٢٠٢٥-٠١-١٦ ١٢:٣٧:١٠,٢٢١ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٦ ١٢:٣٧:١٠,٢٢٢ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٦ ١٢:٣٧:١٠,٢٢٤ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+٢٠٢٥-٠١-١٦ ١٦:١٨:٢٥,٨٧٩ WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2s503ms519µs600ns).
+٢٠٢٥-٠١-١٦ ١٦:١٨:٤٩,٨٧٧ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٦ ١٦:١٨:٤٩,٨٩٩ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-١٦ ١٦:١٨:٤٩,٩٠٨ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٤,٩٥١ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٤,٩٥٨ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 9136 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٤,٩٥٨ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٤,٩٥٩ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٥,٩٣٧ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٦,٠٣٩ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 94 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٢٤٠ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٢٥٦ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٢٥٧ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٢٥٧ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٤٥٩ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٤٦٠ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2444 ms
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٧٠٢ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٧,٧٦٥ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٨,٣٠٨ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٨,٤١٤ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٨,٥٣٥ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٨,٨٥٤ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٦ ١٦:١٨:٥٩,٠١٧ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٠,٣١٧ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٠,٣٢٦ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٠,٨٥٥ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٢,٢٩٥ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c7787a7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ca464bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@65fe1f47, org.springframework.security.web.header.HeaderWriterFilter@35975b05, org.springframework.web.filter.CorsFilter@4767be27, org.springframework.security.web.authentication.logout.LogoutFilter@1512efe9, com.elcmal.security.jwt.AuthTokenFilter@3606eee9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2165d4ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@610d0067, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46f041cb, org.springframework.security.web.session.SessionManagementFilter@2111d7b9, org.springframework.security.web.access.ExceptionTranslationFilter@52afcdd8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c2a33af]
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٢,٤٤٨ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٢,٦٩٤ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٢,٧٥٥ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٦ ١٦:١٩:٠٢,٧٧١ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 8.512 seconds (JVM running for 9.173)
+٢٠٢٥-٠١-١٦ ١٦:٢٢:٠١,٢٥٧ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٦ ١٦:٢٢:٠١,٢٥٧ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٦ ١٦:٢٢:٠١,٢٥٩ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٣٢,١٠٨ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-4] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٣٢,١٠٩ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-4] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٥٢,٢٦٣ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-3] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٥٢,٢٦٣ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-3] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٥٢,٩٠٠ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٥٢,٩٠١ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٥٢,٩١٨ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٣:٥٢,٩١٨ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٤:١٦,٦٤٩ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٤:١٦,٦٤٩ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٤:٣٣,٩٥٥ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-7] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٤:٣٣,٩٥٥ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-7] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٥:٥٦,٠٤٣ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٥:٥٦,٠٤٣ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٦:٤٩:٢١,٠٧٦ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-8] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٦:٤٩:٢١,٠٧٦ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-8] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٣١:٥٦,٢٠٩ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] SQL Error: 1452, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٨:٣١:٥٦,٢١٠ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] Cannot add or update a child row: a foreign key constraint fails (`maintenance_center`.`malfunctions`, CONSTRAINT `FKkc2erhpdap5c46xa43owd7g5u` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٥,٠٧٣ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٥,٠٧٤ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٥,٠٧٥ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-6] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٧,٩٢٩ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-8] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٧,٩٣٠ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-8] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٧,٩٣٠ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-8] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٩,٠٦٤ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٩,٠٦٤ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٩,٠٦٥ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-10] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ١٨:٣٥:٠٩,٩٩٩ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-7] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٨:٣٥:١٠,٠٠٠ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-7] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٣٥:١٠,٠٠٠ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-7] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ١٨:٥٠:١٩,٥٦٧ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ١٨:٥٠:١٩,٥٦٨ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-2] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ١٨:٥٠:١٩,٥٦٩ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-2] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥١,٥٠٢ INFO o.s.b.StartupInfoLogger [main] Starting RepairServiceApplication using Java 17.0.11 on NoteBook with PID 6492 (D:\PROJECT\projectVedio\backend\target\classes started by NoteBook in D:\PROJECT\projectVedio)
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥١,٥١٠ DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.7.0, Spring v5.3.20
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥١,٥١٢ INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥١,٨٨٢ INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٣,٠٤٥ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٣,١٤٩ INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 93 ms. Found 10 JPA repository interfaces.
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,١٣١ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,١٤٦ INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,١٤٧ INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,١٤٧ INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,٣٦٩ INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,٣٧٠ INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2662 ms
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,٦٣٠ WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٤,٧٠٨ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٥,٤٠٦ INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٥,٥٦٤ INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٥,٧٠٤ INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٦,٠٠٧ INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٦,٢٠٤ INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٧,٤٦٢ INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٧,٤٧٤ INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٨,٢٤٧ DEBUG o.s.w.f.GenericFilterBean [main] Filter 'authenticationJwtTokenFilter' configured for use
+٢٠٢٥-٠١-١٦ ٢٠:٢٣:٥٩,٧٥٦ INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@796a7c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44cab872, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f346355, org.springframework.security.web.header.HeaderWriterFilter@5c7d675c, org.springframework.web.filter.CorsFilter@452a32f2, org.springframework.security.web.authentication.logout.LogoutFilter@4cb59398, com.elcmal.security.jwt.AuthTokenFilter@5b827796, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50fe5df2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@743f58c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2db75e32, org.springframework.security.web.session.SessionManagementFilter@5478597, org.springframework.security.web.access.ExceptionTranslationFilter@4db45d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5263f554]
+٢٠٢٥-٠١-١٦ ٢٠:٢٤:٠٠,٠٢٦ WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+٢٠٢٥-٠١-١٦ ٢٠:٢٤:٠٠,٢٧١ INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+٢٠٢٥-٠١-١٦ ٢٠:٢٤:٠٠,٣٠٣ INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+٢٠٢٥-٠١-١٦ ٢٠:٢٤:٠٠,٣٢٠ INFO o.s.b.StartupInfoLogger [main] Started RepairServiceApplication in 10.053 seconds (JVM running for 11.001)
+٢٠٢٥-٠١-١٦ ٢٠:٣٤:٣٦,٢٠٨ INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٦ ٢٠:٣٤:٣٦,٢٠٩ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+٢٠٢٥-٠١-١٦ ٢٠:٣٤:٣٦,٢١٢ INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+٢٠٢٥-٠١-١٦ ٢٠:٣٥:١٨,٣٦١ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ٢٠:٣٥:١٨,٣٦٢ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ٢٠:٣٥:١٨,٣٦٣ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-6] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ٢٠:٣٦:٢١,٩٤٦ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ٢٠:٣٦:٢١,٩٤٦ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ٢٠:٣٦:٢١,٩٤٧ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-10] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ٢٠:٣٨:٢٢,٣٢٣ WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] SQL Error: 1451, SQLState: 23000
+٢٠٢٥-٠١-١٦ ٢٠:٣٨:٢٢,٣٢٤ ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] Cannot delete or update a parent row: a foreign key constraint fails (`maintenance_center`.`order_item`, CONSTRAINT `FKn46wcvjtyekwsw2h13182ic5r` FOREIGN KEY (`malfunction_id`) REFERENCES `malfunctions` (`id`))
+٢٠٢٥-٠١-١٦ ٢٠:٣٨:٢٢,٣٢٤ INFO o.h.e.j.b.i.AbstractBatchImpl [http-nio-8080-exec-5] HHH000010: On release of batch it still contained JDBC statements
+٢٠٢٥-٠١-١٦ ٢٠:٤٣:٠٨,٥٨٧ INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+٢٠٢٥-٠١-١٦ ٢٠:٤٣:٠٨,٥٩٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+٢٠٢٥-٠١-١٦ ٢٠:٤٣:٠٨,٦٠٠ INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
